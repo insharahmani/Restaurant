@@ -1,4 +1,5 @@
 Restaurant Data Analysis Project
+
 Project Overview
 This project focuses on analyzing restaurant-related data to uncover insights into customer behavior, food preferences, sales performance, and category-wise revenue generation. The goal is to help restaurant owners and stakeholders make data-driven decisions to improve operations, menu offerings, and profitability.
 
