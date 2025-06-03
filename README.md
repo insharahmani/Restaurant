@@ -1,46 +1,83 @@
-Restaurant Data Analysis Project
+# Restaurant Sales Dashboard | Excel + Power BI
 
-Project Overview
+A visually engaging and interactive dashboard project built using **Excel** and **Power BI**, aimed at uncovering insights from restaurant sales data. The dashboard tracks sales trends, top-selling items, customer orders, payment behaviors, and platform performance (Zomato/Swiggy), helping decision-makers optimize restaurant operations.
 
-This project focuses on analyzing restaurant-related data to uncover insights into customer behavior, food preferences, sales performance, and category-wise revenue generation. The goal is to help restaurant owners and stakeholders make data-driven decisions to improve operations, menu offerings, and profitability.
+---
 
-Features & Analysis
+## Project Summary
 
-Order Data Analysis: Breakdown of food items ordered, most popular items, and quantity trends.
+This project simulates one month of restaurant order data and transforms it into an analytics-rich, business-friendly dashboard. It is designed to help restaurant owners and analysts monitor key performance indicators and make data-driven decisions.
 
-Revenue Insights: Daily, weekly, and monthly revenue summaries with category-wise earnings.
+---
 
-Customer Preferences: Identification of best-selling categories and frequently ordered combos.
+## Dataset Columns
 
-Item Pricing & Costing: Price mapping of food items and impact on total revenue.
+The dataset includes structured fields that reflect real-world restaurant order behavior:
 
-Low-performing Items: Detection of least sold products to optimize inventory and menu.
+- Customer ID  
+- Customer Name  
+- Customer Mobile No  
+- Product Name  
+- Quantity  
+- Price  
+- Total Price  
+- Category  
+- Total Sales  
+- Order Date  
+- Order Month  
+- Payment Method  
+- Pending Payment  
+- Payment Timing  
 
-Dashboard: Interactive visualizations using Power BI/Excel/Python (based on your tools used).
+---
 
-Technologies Used
-Excel – For tabular data organization and pivot table summaries
+##  Dashboard Objectives
 
-SQL – (If used) For querying structured data
+- Monitor total and daily sales performance  
+- Understand customer preferences and top-selling products  
+- Analyze payment method distribution  
+- Visualize platform-based sales (Zomato vs Swiggy)  
+- Track and forecast sales trends  
 
-Power BI – For dashboard development and data visualization
+---
 
-Dataset Description
-The dataset includes:
+##  Dashboard Features (Power BI)
 
-Item name
+| Feature                         | Description                                                                 |
+|----------------------------------|-----------------------------------------------------------------------------|
+| **Bar Chart**                    | Product Name vs Total Price                                                |
+| **Pie Chart**                    | Distribution of Payment Methods                                            |
+| **KPI Card**                     | Total Sales Value Display                                                  |
+| **Stacked Bar Chart**           | Platform (Zomato/Swiggy) vs Total Sales                                    |
+| **Data Table**                   | Customer ID, Item, Units Sold, and Total Price                             |
+| **Line Chart**                   | Monthly Sales Trend                                                        |
+| **Slicer: Payment Method**       | Filter views based on selected payment types                               |
+| **Slicer: Month**                | Dynamic filtering for January, February, etc.                              |
+| **Date Range Filter**            | View results within a custom date window (e.g., Jan 1 to Jan 20)           |
+| **Total Profit Calculation**     | Derived using custom DAX/Excel formulas                                    |
 
-Category (e.g., Burger, Pizza, Beverage)
+---
 
-Price per item
+## 📈 Key Insights
 
-Quantity sold
+- Identified top 5 best-selling items and their contribution to revenue  
+- Visualized peak sales days and customer activity patterns  
+- Analyzed most preferred payment methods and their impact  
+- Compared sales volume between Zomato and Swiggy  
 
-Total amount
+---
 
-Date of purchase
+## Learning Outcomes
 
-Customer details (optional)
+- Advanced use of Excel for data preparation and transformation  
+- Built a multi-layered interactive Power BI dashboard  
+- Applied DAX calculations for metrics like Total Profit and Amount  
+- Designed a real-world reporting solution for restaurant stakeholders  
+
+---
+
+
+
 
 How to Use
 Clone or download the repository.
@@ -50,4 +87,15 @@ Open the dashboard (.pbix / .xlsx / .py) in the respective software.
 Interact with filters (date, category, product) to view custom insights.
 
 Use the insights for decision-making in pricing, marketing, and menu design.
+
+Conclusion
+
+The Restaurant Sales Dashboard project demonstrates how powerful insights can be unlocked from simple transactional data using tools like Excel and Power BI. By transforming raw order data into meaningful visualizations, this dashboard allows stakeholders to:
+
+- Understand customer behavior and product performance
+- Track daily, monthly, and platform-based sales trends
+- Make informed decisions about inventory, marketing, and operations
+- Identify growth opportunities and areas of improvement
+
+Through this project, I gained hands-on experience in data modeling, DAX calculations, interactive report building, and real-world data storytelling. This solution serves as a practical example of how data analytics can help optimize decision-making in the food service industry.
 
