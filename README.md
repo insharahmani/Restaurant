@@ -6,7 +6,7 @@ A visually engaging and interactive dashboard project built using **Excel** and 
 
 ## Project Summary
 
-This project simulates one month of restaurant order data and transforms it into an analytics-rich, business-friendly dashboard. It is designed to help restaurant owners and analysts monitor key performance indicators and make data-driven decisions.
+This project simulates two month of restaurant order data and transforms it into an analytics-rich, business-friendly dashboard. It is designed to help restaurant owners and analysts monitor key performance indicators and make data-driven decisions.
 
 ---
 
